@@ -1,0 +1,97 @@
+.settings {
+  height: 131vh;
+  background: linear-gradient(#000000,#36013b );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  width: 100%;
+
+}
+.settings .div {
+  height: 97%;
+ margin-top: 1px;
+ position: relative;
+ display: flex;
+ top: 1px;
+ left: 1px;
+ background: rgba( 255, 255, 255, 0.25 );
+ box-shadow: 0 8px 32px 0 rgba(127, 11, 125, 0.37);
+ backdrop-filter: blur( 4px );
+ background-color: #000000;
+ -webkit-backdrop-filter: blur( 4px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 400px;
+ overflow: hidden;
+}
+  
+.settings-container {
+    position: relative;
+    bottom: 25px;
+    width: 88%;
+    font-size: initial;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f9f9f9;
+  }
+  .settings-container h2{
+    margin-bottom: 350px;
+    position: relative;
+    left: 140px;
+  }
+  .settings-list {
+    list-style: none;
+    padding: 0;
+  }
+  .settings-list Link {
+    text-decoration: none;
+  }
+  .settings-list li {
+    margin-bottom: 30px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    bottom: 300px;
+  }
+  
+  .setting-option,
+  .setting-option-link {
+    position: relative;
+    cursor: pointer;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .setting-option-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  
+  .back-arrow {
+    position: relative;
+    top: 23px;
+    left: 20px;
+    width: 20px; 
+    height: 20px; 
+  }

@@ -1,0 +1,68 @@
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 999; 
+  }
+  
+  .custom-modal-content1 {
+    position: relative;
+    bottom: 50px; 
+    width: 350px; 
+    color: white;
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 60%;
+    overflow-y: auto;
+    transition: max-height 0.5s ease;
+    animation: modal-open 1s;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .options {
+    border-top: 1px solid #000; 
+    padding-top: 10px; 
+  }
+  
+  .option {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    font-size: initial;
+    border-bottom: 1px solid #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .option:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .option.selected {
+    background-color: #ccc;
+  } */
+ 
+  
+  @keyframes modal-open {
+    from {
+      max-height: 0;
+    }
+    to {
+      max-height: 70%;
+    }
+  }
+  

@@ -1,0 +1,63 @@
+/* SignoutPopup.css */
+
+/* Overlay */
+.custom-modal-overlayx {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup Content */
+  .custom-modal-content2x {
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    transition: max-height 0.5s ease; /* Adjust animation duration */
+    animation: modal-open 1s;
+  }
+  
+  .custom-modal-content2x h4 {
+    margin-bottom: 20px;
+  }
+  
+  .signout-optionsx {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Close Button */
+  .modal-closex {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .modal-closex:hover {
+    color: #333;
+  }
+  @keyframes modal-open {
+    from {
+      max-height: 0;
+    }
+    to {
+      max-height: 70%;
+    }
+  }

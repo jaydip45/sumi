@@ -1,0 +1,224 @@
+.background-icon {
+    height: 100.57%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: -0.57%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .background-icon,
+  .label,
+  .popularplus-icon {
+    position: absolute;
+    display: none;
+  }
+  .popularplus-icon {
+    top: 8.14px;
+    left: 144px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .label {
+    top: calc(50% - 9.57px);
+    right: 16px;
+    line-height: 20px;
+  }
+  .bars-navigation-r-glyp {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 188px;
+    height: 44px;
+    text-align: right;
+    color: #663399;
+    font-family: "Inter", Helvetica;
+    }
+  .title {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 31px;
+    line-height: 22px;
+  }
+  .bars-navigation-l-glyp,
+  .center {
+    position: absolute;
+    bottom: 0;
+    width: 188px;
+    height: 44px;
+  }
+  .center {
+    left: calc(50% - 93.5px);
+    font-size: 16px;
+  }
+  .bars-navigation-l-glyp {
+    left: 0;
+  }
+  .action,
+  .time {
+    position: absolute;
+    width: 54px;
+  }
+  .time {
+    top: calc(50% - 10px);
+    left: 0;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .action {
+    top: calc(50% - 8px);
+    left: 19.89px;
+    height: 20px;
+  }
+  .container-icon {
+    position: absolute;
+    top: calc(50% - 5.84px);
+    right: 14.5px;
+    width: 67px;
+    height: 11.5px;
+  }
+  .status-default-white {
+    position: absolute;
+    top: -0.29px;
+    left: 0;
+    width: 375px;
+    height: 44px;
+    display: none;
+    font-family: "Inter", Helvetica;
+    }
+  .time1 {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    line-height: 20px;
+    display: inline-block;
+    width: 54px;
+  }
+  .container-icon1 {
+    position: absolute;
+    top: calc(50% - 4.84px);
+    right: 14.5px;
+    width: 67px;
+    height: 11.5px;
+  }
+  .navigation-default-icons,
+  .status-default-black {
+    position: absolute;
+    top: 0.14px;
+    left: 0;
+    width: 375px;
+    height: 44px;
+  }
+  .navigation-default-icons {
+    top: 0;
+    height: 88px;
+    font-size: 12px;
+  }
+  .description {
+    position: absolute;
+    width: calc(100% - 50px);
+    top: 39.3%;
+    left: 54px;
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+    font-family: "Inter", Helvetica;
+    }
+  .group-child,
+  .title1 {
+    position: absolute;
+    width: 325px;
+  }
+  .title1 {
+    top: 34.38%;
+    left: calc(50% - 162.5px);
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .group-child {
+    top: 0;
+    left: 30px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow:0px 12px 24px rgba(0, 0, 0, 0.16);;
+    border: 1px solid rgba(253, 252, 252, 0.6);
+    box-sizing: border-box;
+    height: 184.33px;
+  }
+  .add-payment-method {
+    position: absolute;
+    top: 125.29px;
+    left: 125px;
+    line-height: 25px;
+  }
+  .popularplus-circle-icon {
+    position: absolute;
+    top: 41px;
+    left: 158.5px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 573.54px;
+    /* left: -25px; */
+    width: 325px;
+    height: 184.33px;
+    color: #8123ff;
+    font-family: "Inter", Helvetica;
+    }
+  .payment-screenx {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 812px;
+    overflow: hidden;
+    text-align: center;
+    font-size:x-large;
+    color: white;
+    font-family: "Inter", Helvetica;
+   
+  }
+
+  .main-payment1 {
+  
+    height: 131vh;
+    /* flex-direction: column; */
+    /* background-color: #f5f5f5; */
+    background: linear-gradient(#000000,#36013b );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.main-payment1 .payment1-div {
+    /* width:30vw; */
+    height: 97%;
+   /* background-color: #F5F6FF; */
+   /* background-color: #F5F6FF; */
+   margin-top: 1px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba(127, 11, 125, 0.37);
+   backdrop-filter: blur( 4px );
+   background-color: #000000;
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   overflow: hidden;
+}

@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  background: linear-gradient(#000000,#36013b );
+  font-family: "Inter", Helvetica;
+}

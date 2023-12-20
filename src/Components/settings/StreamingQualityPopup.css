@@ -1,0 +1,82 @@
+.streaming-quality-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 999;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  /* .streaming-quality-popup.open {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  } */
+  
+  .streaming-quality-popup-content {
+    position: relative;
+    bottom: 50px;
+    width: 350px;
+    color: white;
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 60%;
+    overflow-y: auto;
+    transition: max-height 0.5s ease;
+    animation: modal-open 1s;
+  }
+  
+  /* .streaming-quality-popup h3 {
+    margin-top: 0;
+  } */
+  
+  .streaming-quality-options {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+  }
+  
+  .streaming-quality-option {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    font-size: initial;
+    border-bottom: 1px solid #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .streaming-quality-option:hover {
+    background-color: #f5f5f5;
+  } */
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Inter", Helvetica;
+        color: #666; /* Adjust color */
+  }
+  
+  .modal-close:hover {
+    color: white; /* Change hover color if desired */
+  }
+  
+ 
+  
+  @keyframes modal-open {
+    from {
+      max-height: 0;
+    }
+    to {
+      max-height: 70%;
+    }
+  }
+  

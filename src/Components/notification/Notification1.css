@@ -1,0 +1,315 @@
+.linesystemarrow-left-line-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .notification {
+    position: absolute;
+    top: 0;
+    left: 107px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+  .linesystemsearch-line-icon {
+    position: absolute;
+    top: 0;
+    left: 319px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .header {
+    position: absolute;
+    top: 69px;
+    left: 24px;
+    width: 343px;
+    height: 28px;
+    text-align: center;
+    font-size: large;
+    font-family: "Inter", Helvetica;
+    }
+  .component-1,
+  .component-1-child {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .component-1-child {
+    width: 100%;
+    right: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .component-1 {
+    width: 13.79%;
+    right: 86.21%;
+  }
+  .span {
+    color: #54a1ef;
+  }
+  .you-received-a-payment-of-780 {
+    line-height: 20px;
+  }
+  .you-received-a-container {
+    position: absolute;
+    width: 85.34%;
+    top: 6.25%;
+    left: 17.82%;
+    letter-spacing: 0.25px;
+    display: inline-block;
+  }
+  .am {
+    position: absolute;
+    top: 93.75%;
+    left: 17.82%;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+  }
+  .component-47-child {
+    position: absolute;
+    height: 2.08%;
+    width: 81.9%;
+    top: 140.63%;
+    right: 0.43%;
+    bottom: -42.71%;
+    left: 17.67%;
+    border-top: 1px solid gray;
+    box-sizing: border-box;
+  }
+  .linesystemstar-line-icon {
+    position: absolute;
+    height: 50%;
+    width: 6.9%;
+    top: 8.33%;
+    right: 0;
+    bottom: 41.67%;
+    left: 93.1%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    display: none;
+  }
+  .component-47,
+  .component-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 348px;
+    height: 48px;
+  }
+  .component-8 {
+    top: 163px;
+    left: 24px;
+    height: 68px;
+  }
+  .lindsey-culhane {
+    font-family: "Inter", Helvetica;
+    }
+  .span2 {
+    color: darkgray;
+  }
+  .you-received-a-container1 {
+    position: absolute;
+    width: 60.06%;
+    top: 6.25%;
+    left: 17.82%;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .button1 {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .button {
+    position: absolute;
+    height: 66.67%;
+    width: 15.8%;
+    top: 10.42%;
+    right: 0;
+    bottom: 22.92%;
+    left: 84.2%;
+    border-radius: 2px;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    color: darkgray;
+  }
+  .component-10,
+  .component-9 {
+    position: absolute;
+    top: 251px;
+    left: 24px;
+    width: 348px;
+    height: 68px;
+  }
+  .component-10 {
+    top: 339px;
+  }
+  .component-111,
+  .component-121,
+  .component-131,
+  .component-141 {
+    position: absolute;
+    top: 467px;
+    left: 24px;
+    width: 348px;
+    height: 68px;
+  }
+  .component-121,
+  .component-131,
+  .component-141 {
+    top: 555px;
+  }
+  .component-131,
+  .component-141 {
+    top: 707px;
+  }
+  .component-141 {
+    top: 795px;
+  }
+  .this-week,
+  .today,
+  .yesterday {
+    position: absolute;
+    top: 122px;
+    left: 24px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: "Inter", Helvetica;
+        color: darkgrey;
+  }
+  .this-week,
+  .yesterday {
+    top: 426px;
+  }
+  .this-week {
+    top: 666px;
+  }
+  /* .notch-icon {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 30px;
+  } */
+  .network-signal-light {
+    position: relative;
+    width: 20px;
+    height: 14px;
+  }
+  .battery-light,
+  .wifi-signal-light {
+    position: relative;
+    width: 16px;
+    height: 14px;
+  }
+  .battery-light {
+    width: 25px;
+  }
+  .status-icons {
+    position: absolute;
+    top: 16px;
+    right: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .indicator-icon {
+    position: absolute;
+    top: 8px;
+    right: 71px;
+    width: 6px;
+    height: 6px;
+  }
+  .time-light {
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    border-radius: 12px;
+    width: 54px;
+    height: 21px;
+  }
+  .status-bar,
+  .time-light {
+    overflow: hidden;
+  }
+  .status-bar,
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 390px;
+    height: 44px;
+  }
+  .notification-1 {
+    position: relative;
+    border-radius: 10px;
+    background-color: black;
+    width:100%;
+    height: 844px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    font-family: "Inter", Helvetica;
+        /* left: 30%; */
+  }
+
+  .main-notification {
+  
+    height: 131vh;
+    /* flex-direction: column; */
+    /* background-color: #f5f5f5; */
+    background: linear-gradient(#000000,#36013b );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.main-notification .noti-div {
+    /* width:30vw; */
+    height: 97%;
+   /* background-color: #F5F6FF; */
+   /* background-color: #F5F6FF; */
+   margin-top: 1px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba(127, 11, 125, 0.37);
+   backdrop-filter: blur( 4px );
+   background-color: #000000;
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   overflow: hidden;
+
+  
+}
